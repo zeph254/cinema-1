@@ -1,0 +1,280 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "title": "Toy Story 4",
+        "category": "Cartoon",
+        "release_year": 2019,
+        "rating": 7.8,
+        "director": "Josh Cooley",
+        "duration": 100,
+        "language": "English",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/cd6X9Bc7v8h2cwbCOakKkmkktCR.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Frozen II",
+        "category": "Cartoon",
+        "release_year": 2019,
+        "rating": 6.9,
+        "director": "Chris Buck, Jennifer Lee",
+        "duration": 103,
+        "language": "English",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/ylKJptS7DcncGBdl1w21hswKkjp.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Spirited Away",
+        "category": "Anime",
+        "release_year": 2001,
+        "rating": 8.6,
+        "director": "Hayao Miyazaki",
+        "duration": 125,
+        "language": "Japanese",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/mrrP7J82t2rUvwGox2qlNjaUd9Y.jpg"
+      },
+      {
+        "id": 4,
+        "title": "My Neighbor Totoro",
+        "category": "Anime",
+        "release_year": 1988,
+        "rating": 8.2,
+        "director": "Hayao Miyazaki",
+        "duration": 86,
+        "language": "Japanese",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/e3Kp8uqYMLllUwH77dl8V6hcnDh.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Your Name",
+        "category": "Anime",
+        "release_year": 2016,
+        "rating": 8.4,
+        "director": "Makoto Shinkai",
+        "duration": 106,
+        "language": "Japanese",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/pgqgaUx1c1bPqXhH6F2Dqk1eMwM.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Avengers: Endgame",
+        "category": "Action",
+        "release_year": 2019,
+        "rating": 8.4,
+        "director": "Anthony Russo, Joe Russo",
+        "duration": 181,
+        "language": "English",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7WsyChQY7QoVv1d9l1W9M2mZy4z.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Mad Max: Fury Road",
+        "category": "Action",
+        "release_year": 2015,
+        "rating": 8.1,
+        "director": "George Miller",
+        "duration": 120,
+        "language": "English",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/8kJltE8LznWr2ITV5WJjLylbxre.jpg"
+      },
+      {
+        "id": 8,
+        "title": "The Dark Knight",
+        "category": "Action",
+        "release_year": 2008,
+        "rating": 9.0,
+        "director": "Christopher Nolan",
+        "duration": 152,
+        "language": "English",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/htgOLIHQIpzAiFj0ctH98Xr3Xcg.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Inception",
+        "category": "Action",
+        "release_year": 2010,
+        "rating": 8.8,
+        "director": "Christopher Nolan",
+        "duration": 148,
+        "language": "English",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/lQYq1sD3fo8gTw0PSmQbcgq4b8i.jpg"
+      },
+      {
+        "id": 10,
+        "title": "John Wick",
+        "category": "Action",
+        "release_year": 2014,
+        "rating": 7.4,
+        "director": "Chad Stahelski",
+        "duration": 101,
+        "language": "English",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/l5l3lhxd43swX3reBRS6d3yI3Mi.jpg"
+      },
+      {
+        "id": 11,
+        "title": "The Shawshank Redemption",
+        "category": "Drama",
+        "release_year": 1994,
+        "rating": 9.3,
+        "director": "Frank Darabont",
+        "duration": 142,
+        "language": "English",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/q6y0Go1tsGEsmtFryDOJo3dJj6U.jpg"
+      },
+      {
+        "id": 12,
+        "title": "Forrest Gump",
+        "category": "Drama",
+        "release_year": 1994,
+        "rating": 8.8,
+        "director": "Robert Zemeckis",
+        "duration": 142,
+        "language": "English",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/rlf89KcyqNCBzL2x0yqYPyMto9k.jpg"
+      },
+      {
+        "id": 13,
+        "title": "The Godfather",
+        "category": "Drama",
+        "release_year": 1972,
+        "rating": 9.2,
+        "director": "Francis Ford Coppola",
+        "duration": 175,
+        "language": "English",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/5KCVK1q8v1h5hBNSj3e2EpLhR4k.jpg"
+      },
+      {
+        "id": 14,
+        "title": "Schindler's List",
+        "category": "Drama",
+        "release_year": 1993,
+        "rating": 9.0,
+        "director": "Steven Spielberg",
+        "duration": 195,
+        "language": "English",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/dnXoK46ZgD0ZqMM0vBY7ldVeNIN.jpg"
+      },
+      {
+        "id": 15,
+        "title": "Pulp Fiction",
+        "category": "Crime",
+        "release_year": 1994,
+        "rating": 8.9,
+        "director": "Quentin Tarantino",
+        "duration": 154,
+        "language": "English",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/d6JdoM1bPCcN2vvESsZh29e6fA6.jpg"
+      },
+      {
+        "id": 16,
+        "title": "The Matrix",
+        "category": "Sci-Fi",
+        "release_year": 1999,
+        "rating": 8.7,
+        "director": "Lana Wachowski, Lilly Wachowski",
+        "duration": 136,
+        "language": "English",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/iJ0gjvwVCzq9vM8XqljpVv7fXVe.jpg"
+      },
+      {
+        "id": 17,
+        "title": "Star Wars: A New Hope",
+        "category": "Sci-Fi",
+        "release_year": 1977,
+        "rating": 8.6,
+        "director": "George Lucas",
+        "duration": 121,
+        "language": "English",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/olXfX7fPjy9YfPpRykBoAa7yNiV.jpg"
+      },
+      {
+        "id": 18,
+        "title": "Blade Runner 2049",
+        "category": "Sci-Fi",
+        "release_year": 2017,
+        "rating": 8.0,
+        "director": "Denis Villeneuve",
+        "duration": 164,
+        "language": "English",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/vr9M39f5NtrWzJfbkRkxiPV1oRI.jpg"
+      },
+      {
+        "id": 19,
+        "title": "The Lion King",
+        "category": "Cartoon",
+        "release_year": 1994,
+        "rating": 8.5,
+        "director": "Roger Allers, Rob Minkoff",
+        "duration": 88,
+        "language": "English",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/fYwF2ev5b6n5P1Vs3ezbXh1vnZs.jpg"
+      },
+      {
+        "id": 20,
+        "title": "Finding Nemo",
+        "category": "Cartoon",
+        "release_year": 2003,
+        "rating": 8.1,
+        "director": "Andrew Stanton",
+        "duration": 100,
+        "language": "English",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/s6p2OBNnfuYwlR6zTYhD8fOxXWJ.jpg"
+      },
+      {
+        "id": 21,
+        "title": "Naruto the Movie: Blood Prison",
+        "category": "Anime",
+        "release_year": 2011,
+        "rating": 7.6,
+        "director": "Mitsuru Hongo",
+        "duration": 108,
+        "language": "Japanese",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/m5zZlW7kAFiJErX2V7XN59zIRXx.jpg"
+      },
+      {
+        "id": 22,
+        "title": "Akira",
+        "category": "Anime",
+        "release_year": 1988,
+        "rating": 8.0,
+        "director": "Katsuhiro Otomo",
+        "duration": 124,
+        "language": "Japanese",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/gYNhXg4XhxTMI59xR7sZWZ2Moxk.jpg"
+      },
+      {
+        "id": 23,
+        "title": "The Pursuit of Happyness",
+        "category": "Drama",
+        "release_year": 2006,
+        "rating": 8.0,
+        "director": "Gabriele Muccino",
+        "duration": 117,
+        "language": "English",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/ggsrErq5kjzXNGpGiX4k0fMGHnL.jpg"
+      },
+      {
+        "id": 24,
+        "title": "The Silence of the Lambs",
+        "category": "Thriller",
+        "release_year": 1991,
+        "rating": 8.6,
+        "director": "Jonathan Demme",
+        "duration": 118,
+        "language": "English",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/vcITBxn8vftuDJwH38QmXdw1LSs.jpg"
+      },
+      {
+        "id": 25,
+        "title": "Parasite",
+        "category": "Drama",
+        "release_year": 2019,
+        "rating": 8.6,
+        "director": "Bong Joon-ho",
+        "duration": 132,
+        "language": "Korean",
+        "image_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/5Inj5h0WSHZVR6VjzU14vV0lgfN.jpg"
+      }
+    ]
+  }
+  
