@@ -17,7 +17,7 @@ export default function About() {
   
 <ul className="cards">
     {movies.map((movie) => (
-      <li>  
+      <li key={movie.id}>  
         <img src={movie.image_url} alt={movie.title} />  
         <h4>{movie.title}</h4>  
         <p>{movie.category}</p>  
