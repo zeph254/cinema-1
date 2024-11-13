@@ -9,16 +9,35 @@ const image ='data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDw8
 
     return(
         <div className="NavBar">
-       <img src={image} alt="cinema box" />
-       <nav>
-             
-                <NavLink to="./">Home</NavLink>
-                <NavLink to="About">About</NavLink>
-                <NavLink to="Help">Help</NavLink>
-                <NavLink to="Snacks">Snacks</NavLink>
-            
-            </nav>
+       
+       <nav class="navbar navbar-expand-lg bg-body-tertiary">
+               <div class="container-fluid">
+               <img src={image} alt="cinema box" />
+                    {/* <a class="navbar-brand" href="#">Navbar</a>  
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">*/}
+                    <li class="nav-item">
+                     
+                    <NavLink to="./">Home</NavLink>
+                    </li>
+                    <li class="nav-item">
+                    <NavLink to="About">About</NavLink>
+                    </li>
+                    <li class="nav-item">
+                    <NavLink to="Help">Help</NavLink>
+                    </li>
+                    <li class="nav-item">
+                    <NavLink to="Snacks">Snacks</NavLink>
+                    </li>
+                   {/* </ul> */}
+  {/* </div> */}
+</div>
+</nav>
 
         </div>
-    )
-}
+    )}
+    
+   
