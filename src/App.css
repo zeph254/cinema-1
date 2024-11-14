@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+.navbar-nav{
+  justify-content: space-between;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +14,54 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.container-fluid{
+text-align: center;
 
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+h4 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+h5 {
+  font-size: 16px;
+  color: #555;
+}
+
+p {
+  font-size: 14px;
+  color: #777;
+  margin: 5px 0;
+}
+.container-fluid img{
+  max-width: 150px;
+  max-height: 150px;
+  
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

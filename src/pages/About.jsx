@@ -1,5 +1,7 @@
 import React from "react"; 
 import { useEffect,useState } from "react";
+import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 
 export default function About() {  
@@ -14,11 +16,12 @@ export default function About() {
 
 
   return (  
-  
+    <div>
+  <div className="container-fluid">
 <ul className="cards">
-    {movies.map((movie) => (
-      <li>  
-        <img src={movie.image_url} alt={movie.title} />  
+    {movies.map((movie) => ( 
+      <Link to={`/movie/${movie.id}`} key={movie.id} className="card">  
+        <img src={movie.image_url} alt={movie.title} className="col-md-3-md-4"/>  
         <h4>{movie.title}</h4>  
         <p>{movie.category}</p>  
         <p>{movie.release_year}</p>  
@@ -26,9 +29,10 @@ export default function About() {
         <h5>{movie.director}</h5>  
         <p>{movie.duration} minutes</p>  
         <h5>{movie.language}</h5>  
-      </li>
+      </Link>
     ))}  
 </ul>
-
+</div>
+</div>
   );  
 } 
