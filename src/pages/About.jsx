@@ -1,6 +1,6 @@
 import React from "react"; 
 import { useEffect,useState } from "react";
-
+import Search from "./Search";
 
 export default function About() {  
   const [movies, setMovie]=useState([]);
@@ -14,6 +14,9 @@ export default function About() {
 
 
   return (  
+  <>
+    <Search/>
+  
   
 <ul className="cards">
     {movies.map((movie) => (
@@ -137,6 +140,6 @@ export default function About() {
   
     ))}  
 </ul>
-
+</>
   );  
 } 
