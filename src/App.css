@@ -148,3 +148,52 @@ p {
   color: #777;
   margin: 5px 0;
 }
+.snacks-container {
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.snack-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card h4 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.card p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #f39c12;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e67e22;
+}
