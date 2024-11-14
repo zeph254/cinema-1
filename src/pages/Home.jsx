@@ -2,7 +2,7 @@ export default function Home(){
     return(
         <div className="Home">
               <h1>Home</h1>
-              <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ipsam, cumque ullam voluptatum doloribus maxime velit dignissimos minus beatae accusantium? Doloremque corrupti adipisci consectetur possimus sunt ipsum quam? Tempora, fugiat!</p>
+              <p>Welcome to the Cinema prototype as it will provide you a go to experience when it comes to watching your favourite films and series</p>
         </div>
     )
 }

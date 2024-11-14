@@ -24,7 +24,7 @@ Our solution is a website that allows users to browse and watch movies without a
 
 * Users can search for movies by title, genre, or release year.
 * A user can:
-  * Watch movies.
+  * Watch movies via links to other websites.
   * Update a movie.
   * Delete a movie.
   * Search for a movie.
