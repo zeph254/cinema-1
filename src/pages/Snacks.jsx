@@ -1,58 +1,54 @@
-import React, { useState, useEffect } from "react";
 
-export default function Snacks() {
-  const [snacks, setSnacks] = useState([]);
-  const [loading, setLoading] = useState(true);  // To track loading state
-  const [error, setError] = useState(null);  // To track errors
+import React, { useState } from 'react';  
 
-  useEffect(() => {
-    // Fetch snack data from mock API (JSON Server)
-    fetch('http://localhost:3000/snacks')
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error('Failed to fetch snacks');
-        }
-        return response.json();
-      })
-      .then((data) => {
-        setSnacks(data);   // Update state with fetched snacks data
-        setLoading(false);  // Data has been loaded
-      })
-      .catch((error) => {
-        setError(error.message);  // Handle any error that occurred during fetch
-        setLoading(false);  // Stop loading even if an error occurs
-      });
-  }, []); // Empty dependency array ensures this runs once when component mounts
+function Snacks() {  
+  // Declare state to hold the array of snacks with stock property  
+  const [snacks, setSnacks] = useState([  
+    { image_url: "/home/hp/Downloads/download.jpeg", id: 1, name: 'Almonds', stock: 5 },  
+    { image_url: "/home/hp/Downloads/download (1).jpeg", id: 2, name: 'Popcorn', stock: 3 },  
+    { image_url: "/home/hp/Downloads/download (2).jpeg", id: 3, name: 'Hummus and Carrot Sticks', stock: 4 },  
+    { image_url: "/home/hp/Downloads/download (3).jpeg", id: 4, name: 'Greek Yogurt with Honey', stock: 2 },  
+    { image_url: "/home/hp/Downloads/images.jpeg", id: 5, name: 'Cheese Cubes', stock: 6 },  
+    { image_url: "/home/hp/Downloads/images (1).jpeg", id: 6, name: 'Dark Chocolate', stock: 0 },  
+    { image_url: "/home/hp/Downloads/images (2).jpeg", id: 7, name: 'Rice Cakes with Peanut Butter', stock: 1 },  
+    { image_url: "/home/hp/Downloads/download (4).jpeg", id: 8, name: 'Trail Mix', stock: 5 },  
+    { image_url: "/home/hp/Downloads/download (5).jpeg", id: 9, name: 'Veggie Sticks with Ranch Dip', stock: 4 },  
+    { image_url: "/home/hp/Downloads/download (6).jpeg", id: 10, name: 'Fruit Salad', stock: 3 },  
+  ]);  
 
-  // Loading state
-  if (loading) {
-    return <div>Loading snacks...</div>;
-  }
+  const handleBuy = (id) => {  
+    setSnacks(snacks.map(snack => {  
+      if (snack.id === id) {  
+        // Decrease stock if available  
+        if (snack.stock > 0) {  
+          return { ...snack, stock: snack.stock - 1 };  
+        }  
+      }  
+      return snack;  
+    }));  
+  };  
 
-  // Error state
-  if (error) {
-    return <div>Error: {error}</div>;
-  }
+  return (  
+    <div>  
+      <h1>Snacks List</h1>  
+      <ul>  
+        {snacks.map(snack => (  
+          <li key={snack.id}>  
+            <img  
+              src={snack.image_url}  
+              alt={snack.name}  
+              style={{ width: '100px', height: '100px' }}  
+            />  
+            <p>{snack.name}</p>  
+            <p>Stock: {snack.stock > 0 ? snack.stock : 'Out of Stock'}</p>  
+            <button onClick={() => handleBuy(snack.id)} disabled={snack.stock === 0}>  
+              Buy  
+            </button>  
+          </li>  
+        ))}  
+      </ul>  
+    </div>  
+  );  
+}  
 
-  // Render snacks once data is loaded
-  return (
-    <div className="snacks-container">
-      <h2>Available Snacks</h2>
-      <ul className="cards">
-        {snacks.map((snack) => (
-          <li key={snack.id} className="card">
-            <img
-              src={snack.image || '/default-image.jpg'}  // Fallback image if none is provided
-              alt={snack.name}
-              className="snack-image"
-            />
-            <h4>{snack.name}</h4>
-            <p><strong>Description:</strong> {snack.description}</p>
-            <p><strong>Price:</strong> ${snack.price}</p>
-            <button>Add to Cart</button>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-}
+export default Snacks;
