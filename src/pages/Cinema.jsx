@@ -23,7 +23,7 @@ function handleDelete(){
 }
     return (
         <div>
-        <img src={movie.image_url} />
+        <img src={movie.image_url} />  
                             <div className="card-body">
                                 <h3 className="p-2 g-col-6">{movie.title}</h3>
                                 <h5>{movie.category}</h5>
@@ -31,6 +31,7 @@ function handleDelete(){
                                 <h5>{movie.rating}</h5>
                                 <h5>{movie.director}</h5>
                                 <h5>{movie.language}</h5>
+                                
                                 <h6 className="card-subtitle mb-2 text-muted">{movie.duration} minutes</h6>
                                 
                        </div>

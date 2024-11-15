@@ -1,8 +1,8 @@
 export default function Home(){
     return(
         <div className="Home">
-              <h1>Home</h1>
-              <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ipsam, cumque ullam voluptatum doloribus maxime velit dignissimos minus beatae accusantium? Doloremque corrupti adipisci consectetur possimus sunt ipsum quam? Tempora, fugiat!</p>
+             <img src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/9a03aec992cae278234417b614e1d4bf7880efad" alt="" />
+             
         </div>
     )
 }

@@ -12,6 +12,7 @@ import { ToastContainer } from 'react-toastify';
 
 const App = () => {
   return (
+    <div className='App'>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -25,6 +26,7 @@ const App = () => {
       </Routes>
       <ToastContainer />
     </BrowserRouter>
+    </div>
   );
 }
 

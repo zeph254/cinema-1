@@ -14,7 +14,7 @@ return (
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav">
         <NavLink to="./" className="nav-link active" aria-current="page" href="#">Home</NavLink>
-        <NavLink to="About" className="nav-link" href="#">About</NavLink>
+        <NavLink to="about" className="nav-link" href="#">About</NavLink>
         <NavLink to="add" className="nav-link" href="#">Add</NavLink>
         <NavLink to="Help" className="nav-link" href="#">Help</NavLink>
         <NavLink to="Snacks" className="nav-link ">Snacks</NavLink>
