@@ -15,7 +15,7 @@ export default function Add() {
   function handleSubmit(e) {
     e.preventDefault();
 
-    fetch('http://localhost:3000/movies', {
+    fetch('https://cinema-1-b4fr.onrender.com/movies', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json', // Ensure you're sending JSON data

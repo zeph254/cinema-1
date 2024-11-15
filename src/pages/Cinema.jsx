@@ -8,14 +8,14 @@ export default function Movies() {
     const [movie, setMovie] = useState({})
     const {id} = useParams ()
     useEffect(() => {
-        fetch (`http://localhost:3000/movies/${id}`)
+        fetch (`https://cinema-1-b4fr.onrender.com/movies/${id}`)
         .then((res) => res.json())
         .then((data) =>(
          setMovie(data)
         ))
     })
 function handleDelete(){
-    fetch (`http://localhost:3000/movies/${id}`,
+    fetch (`https://cinema-1-b4fr.onrender.com/movies/${id}`,
          {method:"DELETE"}
     )
     toast.success("Movie deleted successfully!")

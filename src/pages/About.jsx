@@ -7,7 +7,7 @@ export default function About() {
   const [error, setError] = useState(null); // To track errors  
 
   useEffect(() => {  
-    fetch('http://localhost:3000/movies')  
+    fetch('https://cinema-1-b4fr.onrender.com/movies')  
       .then((response) => {  
         if (!response.ok) {  
           throw new Error('Failed to fetch movies');  
